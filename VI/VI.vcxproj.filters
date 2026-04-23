@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\VI">
+      <UniqueIdentifier>{389df8e2-99e1-4718-a4af-333fb7b22d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\VI_Task">
+      <UniqueIdentifier>{6afe76dd-ab71-4cee-a56c-e79cd737afd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\VI_Task\VI_Camera">
+      <UniqueIdentifier>{39cb12cd-d809-4c2f-b77b-3ebeebaa81ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\VI_Task\VI_Recog">
+      <UniqueIdentifier>{d0460f2f-d0b5-41f3-845a-08dd4622ffe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\VI_Task\VI_Modbus">
+      <UniqueIdentifier>{461f4fb9-f7cb-4342-8724-d5ab3d3f0c47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\windows">
+      <UniqueIdentifier>{7515544a-1b56-40ec-999d-073b96c43aa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\windows\show_camera_config">
+      <UniqueIdentifier>{6f2683c8-d72d-4a49-a41b-0c0534d1c066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\VI_Task\VI_Modbus\libmodbus库">
+      <UniqueIdentifier>{afdef218-8c90-4f94-b3ba-0c510e1d33e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\windows\PaintRoi">
+      <UniqueIdentifier>{7e5f9532-acca-466d-97ff-1e42822a43cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\ICON">
+      <UniqueIdentifier>{6a3faae1-ed0f-47d3-93eb-3e0f713a4f7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\windows\Log">
+      <UniqueIdentifier>{736fcb0d-b8ed-432e-a030-228b2eb1ea05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\windows\show_DefectLevel">
+      <UniqueIdentifier>{45846a2e-59cd-4584-9ce8-eaa1bfe54de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\windows\HistoryDataRecord">
+      <UniqueIdentifier>{0b9f4012-4eec-4fa3-8b43-2bd549ed8ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\windows\Setting">
+      <UniqueIdentifier>{71043cc9-a299-4f70-8263-dd5cadbef5f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\function">
+      <UniqueIdentifier>{00975ca2-2542-4da3-aef4-8def0ec3bc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\function\PaintRectRoi">
+      <UniqueIdentifier>{a8a1dcce-83f6-4244-99a0-f61261237115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\function\MessageTips">
+      <UniqueIdentifier>{579f03e0-8362-415a-bed9-eef1be4d9d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\function\Get_Local_IP">
+      <UniqueIdentifier>{2cf8983a-2d76-40b1-a94e-78a906c8cebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\function\NetInfo">
+      <UniqueIdentifier>{182ef50b-a964-439e-9141-3ae8f1c79e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\function\INI_Config">
+      <UniqueIdentifier>{506eb0c3-eb42-4b25-b0cd-a5e9ec2918d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\function\CCreateDump">
+      <UniqueIdentifier>{f1869430-305f-4f59-80a4-100f222c00bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\windows\MarkTheError">
+      <UniqueIdentifier>{006aca98-27ca-4295-8960-adfd146a75e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VI.cpp">
+      <Filter>Resource Files\VI</Filter>
+    </ClCompile>
+    <ClCompile Include="VI_Task.cpp">
+      <Filter>Resource Files\VI_Task</Filter>
+    </ClCompile>
+    <ClCompile Include="show_camera_config_window.cpp">
+      <Filter>Resource Files\windows\show_camera_config</Filter>
+    </ClCompile>
+    <ClCompile Include="Get_Local_IP.cpp">
+      <Filter>Resource Files\function\Get_Local_IP</Filter>
+    </ClCompile>
+    <ClCompile Include="VI_Modbus.cpp">
+      <Filter>Resource Files\VI_Task\VI_Modbus</Filter>
+    </ClCompile>
+    <ClCompile Include="VI_Recog.cpp">
+      <Filter>Resource Files\VI_Task\VI_Recog</Filter>
+    </ClCompile>
+    <ClCompile Include="VI_Camera.cpp">
+      <Filter>Resource Files\VI_Task\VI_Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="INI_Config.cpp">
+      <Filter>Resource Files\function\INI_Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libmodbus-master\src\modbus.c">
+      <Filter>Resource Files\VI_Task\VI_Modbus\libmodbus库</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libmodbus-master\src\modbus-data.c">
+      <Filter>Resource Files\VI_Task\VI_Modbus\libmodbus库</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\libmodbus-master\src\modbus-tcp.c">
+      <Filter>Resource Files\VI_Task\VI_Modbus\libmodbus库</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintRectRoi.cpp">
+      <Filter>Resource Files\function\PaintRectRoi</Filter>
+    </ClCompile>
+    <ClCompile Include="RoiPage.cpp">
+      <Filter>Resource Files\windows\PaintRoi</Filter>
+    </ClCompile>
+    <ClCompile Include="MainRoiPage.cpp">
+      <Filter>Resource Files\windows\PaintRoi</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageTips.cpp">
+      <Filter>Resource Files\function\MessageTips</Filter>
+    </ClCompile>
+    <ClCompile Include="show_DefeatLevel.cpp">
+      <Filter>Resource Files\windows\show_DefectLevel</Filter>
+    </ClCompile>
+    <ClCompile Include="show_log.cpp">
+      <Filter>Resource Files\windows\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Setting.cpp">
+      <Filter>Resource Files\windows\Setting</Filter>
+    </ClCompile>
+    <ClCompile Include="ChangePassword.cpp">
+      <Filter>Resource Files\windows\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryDataRecord.cpp">
+      <Filter>Resource Files\windows\HistoryDataRecord</Filter>
+    </ClCompile>
+    <ClCompile Include="GetLocalPCInfo.cpp">
+      <Filter>Resource Files\function\NetInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="CCreateDump.cpp">
+      <Filter>Resource Files\function\CCreateDump</Filter>
+    </ClCompile>
+    <ClCompile Include="MarkTheError.cpp">
+      <Filter>Resource Files\windows\MarkTheError</Filter>
+    </ClCompile>
+    <ClCompile Include="modbusDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ui_VI.h">
+      <Filter>Resource Files\VI</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Get_Local_IP.h">
+      <Filter>Resource Files\function\Get_Local_IP</Filter>
+    </ClInclude>
+    <ClInclude Include="VI_Modbus.h">
+      <Filter>Resource Files\VI_Task\VI_Modbus</Filter>
+    </ClInclude>
+    <ClInclude Include="VI_Recog.h">
+      <Filter>Resource Files\VI_Task\VI_Recog</Filter>
+    </ClInclude>
+    <ClInclude Include="VI_Camera.h">
+      <Filter>Resource Files\VI_Task\VI_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_show_camera_config_window.h">
+      <Filter>Resource Files\windows\show_camera_config</Filter>
+    </ClInclude>
+    <ClInclude Include="INI_Config.h">
+      <Filter>Resource Files\function\INI_Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libmodbus-master\src\modbus.h">
+      <Filter>Resource Files\VI_Task\VI_Modbus\libmodbus库</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libmodbus-master\src\modbus-tcp.h">
+      <Filter>Resource Files\VI_Task\VI_Modbus\libmodbus库</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\libmodbus-master\src\modbus-tcp-private.h">
+      <Filter>Resource Files\VI_Task\VI_Modbus\libmodbus库</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_MainRoiPage.h">
+      <Filter>Resource Files\windows\PaintRoi</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_RoiPage.h">
+      <Filter>Resource Files\windows\PaintRoi</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_show_DefeatLevel.h">
+      <Filter>Resource Files\windows\show_DefectLevel</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_login.h">
+      <Filter>Resource Files\windows\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="StateCode.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_Setting.h">
+      <Filter>Resource Files\windows\Setting</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_ChangePassword.h">
+      <Filter>Resource Files\windows\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_HistoryDataRecord.h">
+      <Filter>Resource Files\windows\HistoryDataRecord</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskData.h">
+      <Filter>Resource Files\VI_Task</Filter>
+    </ClInclude>
+    <ClInclude Include="RecogData.h">
+      <Filter>Resource Files\VI_Task\VI_Recog</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraParameters.h">
+      <Filter>Resource Files\VI_Task\VI_Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CCreateDump.h">
+      <Filter>Resource Files\function\CCreateDump</Filter>
+    </ClInclude>
+    <ClInclude Include="ui_MarkTheError.h">
+      <Filter>Resource Files\windows\MarkTheError</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="VI.h">
+      <Filter>Resource Files\VI</Filter>
+    </QtMoc>
+    <QtMoc Include="VI_Task.h">
+      <Filter>Resource Files\VI_Task</Filter>
+    </QtMoc>
+    <QtMoc Include="show_camera_config_window.h">
+      <Filter>Resource Files\windows\show_camera_config</Filter>
+    </QtMoc>
+    <QtMoc Include="PaintRectRoi.h">
+      <Filter>Resource Files\function\PaintRectRoi</Filter>
+    </QtMoc>
+    <QtMoc Include="RoiPage.h">
+      <Filter>Resource Files\windows\PaintRoi</Filter>
+    </QtMoc>
+    <QtMoc Include="MainRoiPage.h">
+      <Filter>Resource Files\windows\PaintRoi</Filter>
+    </QtMoc>
+    <QtMoc Include="MessageTips.h">
+      <Filter>Resource Files\function\MessageTips</Filter>
+    </QtMoc>
+    <QtMoc Include="show_DefeatLevel.h">
+      <Filter>Resource Files\windows\show_DefectLevel</Filter>
+    </QtMoc>
+    <QtMoc Include="show_log.h">
+      <Filter>Resource Files\windows\Log</Filter>
+    </QtMoc>
+    <QtMoc Include="Setting.h">
+      <Filter>Resource Files\windows\Setting</Filter>
+    </QtMoc>
+    <QtMoc Include="ChangePassword.h">
+      <Filter>Resource Files\windows\Log</Filter>
+    </QtMoc>
+    <QtMoc Include="HistoryDataRecord.h">
+      <Filter>Resource Files\windows\HistoryDataRecord</Filter>
+    </QtMoc>
+    <QtMoc Include="GetLocalPCInfo.h">
+      <Filter>Resource Files\function\NetInfo</Filter>
+    </QtMoc>
+    <QtMoc Include="MarkTheError.h">
+      <Filter>Resource Files\windows\MarkTheError</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="VI.qrc">
+      <Filter>Resource Files\VI</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="VI.ui">
+      <Filter>Resource Files\VI</Filter>
+    </QtUic>
+    <QtUic Include="show_camera_config_window.ui">
+      <Filter>Resource Files\windows\show_camera_config</Filter>
+    </QtUic>
+    <QtUic Include="MainRoiPage.ui">
+      <Filter>Resource Files\windows\PaintRoi</Filter>
+    </QtUic>
+    <QtUic Include="RoiPage.ui">
+      <Filter>Resource Files\windows\PaintRoi</Filter>
+    </QtUic>
+    <QtUic Include="login.ui">
+      <Filter>Resource Files\windows\Log</Filter>
+    </QtUic>
+    <QtUic Include="show_DefeatLevel.ui">
+      <Filter>Resource Files\windows\show_DefectLevel</Filter>
+    </QtUic>
+    <QtUic Include="Setting.ui">
+      <Filter>Resource Files\windows\Setting</Filter>
+    </QtUic>
+    <QtUic Include="ChangePassword.ui">
+      <Filter>Resource Files\windows\Log</Filter>
+    </QtUic>
+    <QtUic Include="HistoryDataRecord.ui">
+      <Filter>Resource Files\windows\HistoryDataRecord</Filter>
+    </QtUic>
+    <QtUic Include="MarkTheError.ui">
+      <Filter>Resource Files\windows\MarkTheError</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VI.rc">
+      <Filter>Resource Files\VI</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="VI.ico">
+      <Filter>Resource Files\VI</Filter>
+    </Image>
+    <Image Include="icon\VI.ico">
+      <Filter>Resource Files\ICON</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
