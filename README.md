@@ -6,6 +6,8 @@
 
 系统基于 Qt/C++ 开发，使用 OpenCV 完成图像处理，使用海康机器视觉相机 SDK 完成 GigE 相机控制，通过 Modbus TCP 与 PLC 通信，并将生产统计数据写入 MySQL 数据库。软件启动后会自动初始化 PLC、相机、ROI、检测参数和本地存图目录，在生产过程中根据 PLC 指令执行拍照和识别任务。
 
+https://github.com/user-attachments/assets/af4ddbea-be90-4872-a269-7c4e2ca41fd1
+
 ## 2. 系统功能
 
 - 三路相机图像采集：分别对应不同检测工位。
